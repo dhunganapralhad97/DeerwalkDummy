@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-label="Full Stack Web Development - MERN Stack">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b2b4e"/><stop offset="1" stop-color="#123f73"/></linearGradient>
+<pattern id="dots" width="36" height="36" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.6" fill="#fff" fill-opacity=".09"/></pattern>
+</defs>
+<rect width="1200" height="600" fill="url(#bg)"/>
+<rect width="1200" height="600" fill="url(#dots)"/>
+<circle cx="1080" cy="70" r="230" fill="#1b5faa" fill-opacity=".28"/>
+<circle cx="110" cy="570" r="190" fill="#17766a" fill-opacity=".25"/>
+<rect x="390" y="140" width="420" height="320" rx="20" fill="#0b2b4e" fill-opacity=".85" stroke="#e6eff9" stroke-width="6"/><path d="M390 196 H810" stroke="#e6eff9" stroke-width="6"/><circle cx="426" cy="168" r="9" fill="#f0a431"/><circle cx="458" cy="168" r="9" fill="#8fb3e0"/><circle cx="490" cy="168" r="9" fill="#e6eff9"/><polyline points="540,290 490,330 540,370" stroke="#e6eff9" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none"/><polyline points="660,290 710,330 660,370" stroke="#e6eff9" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none"/><line x1="625" y1="275" x2="575" y2="385" stroke="#f0a431" stroke-width="14" stroke-linecap="round"/>
+</svg>

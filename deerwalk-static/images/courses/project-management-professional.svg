@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-label="Project Management Professional">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b2b4e"/><stop offset="1" stop-color="#1b5faa"/></linearGradient>
+<pattern id="dots" width="36" height="36" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.6" fill="#fff" fill-opacity=".09"/></pattern>
+</defs>
+<rect width="1200" height="600" fill="url(#bg)"/>
+<rect width="1200" height="600" fill="url(#dots)"/>
+<circle cx="1080" cy="70" r="230" fill="#1b5faa" fill-opacity=".28"/>
+<circle cx="110" cy="570" r="190" fill="#17766a" fill-opacity=".25"/>
+<line x1="400" y1="130" x2="400" y2="470" stroke="#e6eff9" stroke-opacity=".2" stroke-width="3"/><line x1="480" y1="130" x2="480" y2="470" stroke="#e6eff9" stroke-opacity=".2" stroke-width="3"/><line x1="560" y1="130" x2="560" y2="470" stroke="#e6eff9" stroke-opacity=".2" stroke-width="3"/><line x1="640" y1="130" x2="640" y2="470" stroke="#e6eff9" stroke-opacity=".2" stroke-width="3"/><line x1="720" y1="130" x2="720" y2="470" stroke="#e6eff9" stroke-opacity=".2" stroke-width="3"/><line x1="800" y1="130" x2="800" y2="470" stroke="#e6eff9" stroke-opacity=".2" stroke-width="3"/><rect x="410" y="160" width="190" height="40" rx="20" fill="#e6eff9"/><rect x="500" y="235" width="250" height="40" rx="20" fill="#8fb3e0"/><rect x="590" y="310" width="190" height="40" rx="20" fill="#e6eff9"/><rect x="470" y="385" width="230" height="40" rx="20" fill="#8fb3e0"/><polygon points="800,150 825,175 800,200 775,175" fill="#f0a431"/><line x1="800" y1="205" x2="800" y2="470" stroke="#f0a431" stroke-width="4" stroke-dasharray="10 10"/>
+</svg>

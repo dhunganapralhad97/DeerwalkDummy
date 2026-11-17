@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Industry-focused IT and programming courses in Nepal: web development, data science, AI, cyber security and more.">
+  <title>Deerwalk Training Center | Learn Coding, Programming, and IT Skills</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header" id="site-header"></header>
+  <main id="content">
+
+    <section class="hero">
+      <div class="container hero__grid">
+        <div>
+          <h1>IT skills that get you hired in Nepal</h1>
+          <p class="lead">Welcome to Deerwalk Training Center. Learn IT and technical skills in courses built around what employers need.</p>
+          <form class="search" id="hero-search" role="search">
+            <input type="search" id="hero-q" placeholder="Search courses, e.g. Python" aria-label="Search courses">
+            <button class="btn">Search</button>
+          </form>
+        </div>
+        <aside class="intakes" aria-labelledby="intakes-title">
+          <h2 id="intakes-title">Starting soon</h2>
+          <ul id="intakes-list"></ul>
+          <a href="courses.html?upcoming=true">See all upcoming courses</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section__head"><h2>Upcoming courses</h2><a href="courses.html?upcoming=true">View all</a></div>
+        <div class="grid" id="upcoming-grid"></div>
+      </div>
+    </section>
+
+    <section class="section section--tint">
+      <div class="container">
+        <h2>Browse by category</h2>
+        <ul class="chips" id="category-chips"></ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div>
+          <h2>Why Deerwalk Training Center</h2>
+          <p>Training in IT and management, designed around getting you into work.</p>
+        </div>
+        <dl class="reasons">
+          <div><dt>Hands-on learning</dt><dd>Real projects, practical exercises and internship opportunities build job-ready skills from the first week.</dd></div>
+          <div><dt>Career support</dt><dd>Resume workshops, interview preparation and placement assistance for every graduate.</dd></div>
+          <div><dt>Industry partnerships</dt><dd>Direct connections to IT companies that offer internships and jobs.</dd></div>
+          <div><dt>Curriculum shaped by employers</dt><dd>Courses are designed with industry input so you learn what hiring teams ask for.</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section section--dark">
+      <div class="container">
+        <h2>Your path from enrolment to employment</h2>
+        <ol class="steps">
+          <li><h3>Enroll</h3><p>Pick a course and a schedule that fits you, then register online.</p></li>
+          <li><h3>Learn</h3><p>Work through hands-on, industry-relevant lessons with expert instructors.</p></li>
+          <li><h3>Graduate</h3><p>Complete your training and receive your certificate.</p></li>
+          <li><h3>Get placed</h3><p>Our placement partner program connects you with employers.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="events-section" hidden>
+      <div class="container">
+        <div class="section__head"><h2>Events and workshops</h2><a href="events.html">All events</a></div>
+        <div class="event-list" id="events-list"></div>
+      </div>
+    </section>
+
+    <section class="section section--tint" id="team-section" hidden>
+      <div class="container">
+        <div class="section__head"><h2>Meet our instructors</h2><a href="team.html">All instructors</a></div>
+        <div class="team-grid" id="team-list"></div>
+      </div>
+    </section>
+
+    <section class="section" id="partners" hidden>
+      <div class="container">
+        <h2>Where our graduates work</h2>
+        <p>Placement partners across Nepal's IT industry.</p>
+        <ul class="partners" id="partners-list"></ul>
+      </div>
+    </section>
+
+    <section class="section section--tint" id="testimonials" hidden>
+      <div class="container">
+        <h2>What students say</h2>
+        <div class="quotes" id="quotes-list"></div>
+      </div>
+    </section>
+
+    <section class="section" id="posts-section" hidden>
+      <div class="container">
+        <div class="section__head"><h2>From the blog</h2><a href="blog.html">All posts</a></div>
+        <div class="grid" id="posts-list"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container cta">
+        <h2>Ready to start learning?</h2>
+        <a class="btn" href="enroll.html">Enroll in a course</a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

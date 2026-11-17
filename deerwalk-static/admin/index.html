@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Admin | Deerwalk Training Center</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="../images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+  <main class="login" id="login" hidden>
+    <form class="form login__card" id="login-form">
+      <h1>Admin sign in</h1>
+      <label class="field"><span class="field__label">Email</span><input type="email" name="email" required autocomplete="username"></label>
+      <label class="field"><span class="field__label">Password</span><input type="password" name="password" required autocomplete="current-password"></label>
+      <p class="alert alert--error" id="login-error" role="alert" hidden></p>
+      <button class="btn">Sign in</button>
+      <a href="../index.html">Back to website</a>
+    </form>
+  </main>
+
+  <div class="admin" id="admin" hidden>
+    <aside class="admin__side">
+      <a href="#dashboard" class="brand brand--light">Deerwalk admin</a>
+      <nav id="admin-nav" aria-label="Admin"></nav>
+      <div class="admin__side-foot">
+        <a href="../index.html" target="_blank" rel="noopener">View website</a>
+        <button class="link-btn" id="logout">Sign out</button>
+      </div>
+    </aside>
+    <main class="admin__main" id="view"></main>
+  </div>
+
+  <dialog id="dlg"></dialog>
+
+  <script src="../js/data.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-label="Full Stack Web Development - Java Spring Boot">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b2b4e"/><stop offset="1" stop-color="#14305a"/></linearGradient>
+<pattern id="dots" width="36" height="36" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.6" fill="#fff" fill-opacity=".09"/></pattern>
+</defs>
+<rect width="1200" height="600" fill="url(#bg)"/>
+<rect width="1200" height="600" fill="url(#dots)"/>
+<circle cx="1080" cy="70" r="230" fill="#1b5faa" fill-opacity=".28"/>
+<circle cx="110" cy="570" r="190" fill="#17766a" fill-opacity=".25"/>
+<rect x="430" y="140" width="340" height="92" rx="18" fill="#e6eff9" fill-opacity=".14" stroke="#e6eff9" stroke-width="6"/><circle cx="478" cy="186" r="11" fill="#f0a431"/><circle cx="512" cy="186" r="11" fill="#8fb3e0"/><rect x="550" y="179" width="170" height="14" rx="7" fill="#e6eff9" fill-opacity=".85"/><line x1="600" y1="232" x2="600" y2="255" stroke="#f0a431" stroke-width="7" stroke-linecap="round"/><rect x="430" y="255" width="340" height="92" rx="18" fill="#e6eff9" fill-opacity=".14" stroke="#e6eff9" stroke-width="6"/><circle cx="478" cy="301" r="11" fill="#f0a431"/><circle cx="512" cy="301" r="11" fill="#8fb3e0"/><rect x="550" y="294" width="170" height="14" rx="7" fill="#e6eff9" fill-opacity=".85"/><line x1="600" y1="347" x2="600" y2="370" stroke="#f0a431" stroke-width="7" stroke-linecap="round"/><rect x="430" y="370" width="340" height="92" rx="18" fill="#e6eff9" fill-opacity=".14" stroke="#e6eff9" stroke-width="6"/><circle cx="478" cy="416" r="11" fill="#f0a431"/><circle cx="512" cy="416" r="11" fill="#8fb3e0"/><rect x="550" y="409" width="170" height="14" rx="7" fill="#e6eff9" fill-opacity=".85"/>
+</svg>

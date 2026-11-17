@@ -1,0 +1,18 @@
+{
+  "name": "deerwalk-training-center",
+  "version": "1.0.0",
+  "description": "Static website for Deerwalk Training Center with a separate browser-based admin panel (HTML, CSS and JavaScript).",
+  "private": true,
+  "scripts": {
+    "start": "http-server . -p 8080 -c-1",
+    "dev": "http-server . -p 8080 -c-1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["training-center", "static-site", "admin-panel", "html", "css", "javascript"],
+  "license": "UNLICENSED"
+}

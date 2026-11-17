@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-label="AI Powered Digital Marketing">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b2b4e"/><stop offset="1" stop-color="#1b5faa"/></linearGradient>
+<pattern id="dots" width="36" height="36" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.6" fill="#fff" fill-opacity=".09"/></pattern>
+</defs>
+<rect width="1200" height="600" fill="url(#bg)"/>
+<rect width="1200" height="600" fill="url(#dots)"/>
+<circle cx="1080" cy="70" r="230" fill="#1b5faa" fill-opacity=".28"/>
+<circle cx="110" cy="570" r="190" fill="#17766a" fill-opacity=".25"/>
+<path d="M440 262 L650 180 V420 L440 338 Z" fill="#e6eff9"/><rect x="385" y="258" width="66" height="84" rx="14" fill="#8fb3e0"/><path d="M480 345 L510 450 H560 L545 392" fill="#8fb3e0"/><path d="M690 250 Q735 300 690 350" stroke="#f0a431" stroke-width="10" stroke-linecap="round" fill="none"/><path d="M735 215 Q820 300 735 385" stroke="#f0a431" stroke-width="10" stroke-linecap="round" fill="none"/><path d="M780 180 Q905 300 780 420" stroke="#f0a431" stroke-width="10" stroke-linecap="round" fill="none"/><path d="M880 110 Q880 140 910 140 Q880 140 880 170 Q880 140 850 140 Q880 140 880 110Z" fill="#e6eff9"/><path d="M330 172 Q330 190 348 190 Q330 190 330 208 Q330 190 312 190 Q330 190 330 172Z" fill="#f0a431"/>
+</svg>

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Industry-focused IT and programming courses in Nepal: web development, data science, AI, cyber security and more.">
+  <title>Register for a course | Deerwalk Training Center</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="enroll">
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header" id="site-header"></header>
+  <main id="content">
+
+    <section class="container page narrow">
+      <h1>Register for a course</h1>
+      <form class="form" id="enroll-form">
+        <label class="field"><span class="field__label">Full name</span><input name="fullName" required autocomplete="name"></label>
+        <label class="field"><span class="field__label">Phone</span><input name="phone" type="tel" required autocomplete="tel"></label>
+        <label class="field"><span class="field__label">Email</span><input name="email" type="email" required autocomplete="email"></label>
+        <label class="field">
+          <span class="field__label">Course</span>
+          <select name="courseId" id="course-select" required></select>
+          <span class="field__hint" id="fee-hint"></span>
+        </label>
+        <fieldset class="choice">
+          <legend class="field__label">Preferred schedule</legend>
+          <div class="choice__row">
+            <label class="choice__option"><input type="radio" name="schedule" value="Morning" checked><span>Morning</span></label>
+            <label class="choice__option"><input type="radio" name="schedule" value="Afternoon"><span>Afternoon</span></label>
+            <label class="choice__option"><input type="radio" name="schedule" value="Evening"><span>Evening</span></label>
+          </div>
+        </fieldset>
+        <fieldset class="choice">
+          <legend class="field__label">Payment option</legend>
+          <div class="choice__row">
+            <label class="choice__option"><input type="radio" name="paymentOption" value="Pay Later" checked><span>Pay Later</span></label>
+            <label class="choice__option"><input type="radio" name="paymentOption" value="Pay Now"><span>Pay Now</span></label>
+          </div>
+        </fieldset>
+        <p id="form-status" role="status" hidden></p>
+        <button class="btn">Submit registration</button>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

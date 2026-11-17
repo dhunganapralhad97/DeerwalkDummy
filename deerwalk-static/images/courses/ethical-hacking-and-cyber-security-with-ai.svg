@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-label="Ethical Hacking &amp; Cyber Security with AI">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b2b4e"/><stop offset="1" stop-color="#14305a"/></linearGradient>
+<pattern id="dots" width="36" height="36" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.6" fill="#fff" fill-opacity=".09"/></pattern>
+</defs>
+<rect width="1200" height="600" fill="url(#bg)"/>
+<rect width="1200" height="600" fill="url(#dots)"/>
+<circle cx="1080" cy="70" r="230" fill="#1b5faa" fill-opacity=".28"/>
+<circle cx="110" cy="570" r="190" fill="#17766a" fill-opacity=".25"/>
+<path d="M600 130 L765 195 V310 C765 400 695 452 600 485 C505 452 435 400 435 310 V195 Z" fill="#e6eff9" fill-opacity=".14" stroke="#e6eff9" stroke-width="9" stroke-linejoin="round"/><path d="M570 300 V272 a30 30 0 0 1 60 0 V300" stroke="#e6eff9" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/><rect x="540" y="296" width="120" height="96" rx="16" fill="#f0a431"/><circle cx="600" cy="334" r="12" fill="#0b2b4e"/><rect x="594" y="340" width="12" height="30" rx="5" fill="#0b2b4e"/>
+</svg>
